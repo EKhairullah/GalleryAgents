@@ -26,12 +26,12 @@ class Ui_widget
 public:
     QWidget *centralwidget;
     QWidget *layoutWidget;
-    QHBoxLayout *horizontalLayout;
-    QLabel *label;
-    QGraphicsView *agentOne;
-    QLabel *label_2;
-    QGraphicsView *graphicsView;
-    QGraphicsView *agentTwo;
+    QHBoxLayout *horizontalLayout_3;
+    QLabel *label_5;
+    QGraphicsView *agentOne_3;
+    QLabel *label_6;
+    QGraphicsView *graphicsView_3;
+    QGraphicsView *agentTwo_3;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -39,65 +39,66 @@ public:
     {
         if (widget->objectName().isEmpty())
             widget->setObjectName("widget");
-        widget->resize(800, 600);
+        widget->resize(1140, 600);
         centralwidget = new QWidget(widget);
         centralwidget->setObjectName("centralwidget");
         layoutWidget = new QWidget(centralwidget);
         layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(380, 290, 812, 194));
-        horizontalLayout = new QHBoxLayout(layoutWidget);
-        horizontalLayout->setObjectName("horizontalLayout");
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(layoutWidget);
-        label->setObjectName("label");
-        label->setStyleSheet(QString::fromUtf8(""));
+        layoutWidget->setGeometry(QRect(11, -7, 1121, 571));
+        horizontalLayout_3 = new QHBoxLayout(layoutWidget);
+        horizontalLayout_3->setObjectName("horizontalLayout_3");
+        horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
+        label_5 = new QLabel(layoutWidget);
+        label_5->setObjectName("label_5");
+        label_5->setStyleSheet(QString::fromUtf8(""));
 
-        horizontalLayout->addWidget(label);
+        horizontalLayout_3->addWidget(label_5);
 
-        agentOne = new QGraphicsView(layoutWidget);
-        agentOne->setObjectName("agentOne");
-        agentOne->setEnabled(false);
+        agentOne_3 = new QGraphicsView(layoutWidget);
+        agentOne_3->setObjectName("agentOne_3");
+        agentOne_3->setEnabled(false);
         QSizePolicy sizePolicy(QSizePolicy::Maximum, QSizePolicy::Expanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(agentOne->sizePolicy().hasHeightForWidth());
-        agentOne->setSizePolicy(sizePolicy);
-        agentOne->setFocusPolicy(Qt::NoFocus);
-        agentOne->setStyleSheet(QString::fromUtf8("background: transparent; border: none;\n"
+        sizePolicy.setHeightForWidth(agentOne_3->sizePolicy().hasHeightForWidth());
+        agentOne_3->setSizePolicy(sizePolicy);
+        agentOne_3->setFocusPolicy(Qt::NoFocus);
+        agentOne_3->setStyleSheet(QString::fromUtf8("background: transparent; border: none;\n"
 ""));
 
-        horizontalLayout->addWidget(agentOne);
+        horizontalLayout_3->addWidget(agentOne_3);
 
-        label_2 = new QLabel(layoutWidget);
-        label_2->setObjectName("label_2");
+        label_6 = new QLabel(layoutWidget);
+        label_6->setObjectName("label_6");
+        label_6->setStyleSheet(QString::fromUtf8(""));
 
-        horizontalLayout->addWidget(label_2);
+        horizontalLayout_3->addWidget(label_6);
 
-        graphicsView = new QGraphicsView(layoutWidget);
-        graphicsView->setObjectName("graphicsView");
+        graphicsView_3 = new QGraphicsView(layoutWidget);
+        graphicsView_3->setObjectName("graphicsView_3");
         QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Expanding);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(graphicsView->sizePolicy().hasHeightForWidth());
-        graphicsView->setSizePolicy(sizePolicy1);
-        graphicsView->setStyleSheet(QString::fromUtf8("background: transparent; border: none;"));
+        sizePolicy1.setHeightForWidth(graphicsView_3->sizePolicy().hasHeightForWidth());
+        graphicsView_3->setSizePolicy(sizePolicy1);
+        graphicsView_3->setStyleSheet(QString::fromUtf8("background: transparent; border: none;"));
 
-        horizontalLayout->addWidget(graphicsView);
+        horizontalLayout_3->addWidget(graphicsView_3);
 
-        agentTwo = new QGraphicsView(layoutWidget);
-        agentTwo->setObjectName("agentTwo");
-        agentTwo->setEnabled(false);
-        sizePolicy.setHeightForWidth(agentTwo->sizePolicy().hasHeightForWidth());
-        agentTwo->setSizePolicy(sizePolicy);
-        agentTwo->setMaximumSize(QSize(16777215, 16777215));
-        agentTwo->setStyleSheet(QString::fromUtf8("background: transparent; border: none;"));
+        agentTwo_3 = new QGraphicsView(layoutWidget);
+        agentTwo_3->setObjectName("agentTwo_3");
+        agentTwo_3->setEnabled(false);
+        sizePolicy.setHeightForWidth(agentTwo_3->sizePolicy().hasHeightForWidth());
+        agentTwo_3->setSizePolicy(sizePolicy);
+        agentTwo_3->setMaximumSize(QSize(16777215, 16777215));
+        agentTwo_3->setStyleSheet(QString::fromUtf8("background: transparent; border: none;"));
 
-        horizontalLayout->addWidget(agentTwo);
+        horizontalLayout_3->addWidget(agentTwo_3);
 
         widget->setCentralWidget(centralwidget);
         menubar = new QMenuBar(widget);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 23));
+        menubar->setGeometry(QRect(0, 0, 1140, 23));
         widget->setMenuBar(menubar);
         statusbar = new QStatusBar(widget);
         statusbar->setObjectName("statusbar");
@@ -111,8 +112,8 @@ public:
     void retranslateUi(QMainWindow *widget)
     {
         widget->setWindowTitle(QCoreApplication::translate("widget", "widget", nullptr));
-        label->setText(QString());
-        label_2->setText(QString());
+        label_5->setText(QString());
+        label_6->setText(QString());
     } // retranslateUi
 
 };

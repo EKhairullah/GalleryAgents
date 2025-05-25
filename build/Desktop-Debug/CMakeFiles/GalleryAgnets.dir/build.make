@@ -219,10 +219,52 @@ CMakeFiles/GalleryAgnets.dir/grounded.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GalleryAgnets.dir/grounded.cpp.s"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/khairullah/Tictical Monster/GalleryAgnets/grounded.cpp" -o CMakeFiles/GalleryAgnets.dir/grounded.cpp.s
 
+CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o: CMakeFiles/GalleryAgnets.dir/flags.make
+CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o: /home/khairullah/Tictical\ Monster/GalleryAgnets/agentitem.cpp
+CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o: CMakeFiles/GalleryAgnets.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/khairullah/Tictical Monster/GalleryAgnets/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o -MF CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o.d -o CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o -c "/home/khairullah/Tictical Monster/GalleryAgnets/agentitem.cpp"
+
+CMakeFiles/GalleryAgnets.dir/agentitem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GalleryAgnets.dir/agentitem.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/khairullah/Tictical Monster/GalleryAgnets/agentitem.cpp" > CMakeFiles/GalleryAgnets.dir/agentitem.cpp.i
+
+CMakeFiles/GalleryAgnets.dir/agentitem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GalleryAgnets.dir/agentitem.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/khairullah/Tictical Monster/GalleryAgnets/agentitem.cpp" -o CMakeFiles/GalleryAgnets.dir/agentitem.cpp.s
+
+CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o: CMakeFiles/GalleryAgnets.dir/flags.make
+CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o: /home/khairullah/Tictical\ Monster/GalleryAgnets/clickablepixmapitem.cpp
+CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o: CMakeFiles/GalleryAgnets.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/khairullah/Tictical Monster/GalleryAgnets/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o -MF CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o.d -o CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o -c "/home/khairullah/Tictical Monster/GalleryAgnets/clickablepixmapitem.cpp"
+
+CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/khairullah/Tictical Monster/GalleryAgnets/clickablepixmapitem.cpp" > CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.i
+
+CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/khairullah/Tictical Monster/GalleryAgnets/clickablepixmapitem.cpp" -o CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.s
+
+CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o: CMakeFiles/GalleryAgnets.dir/flags.make
+CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o: /home/khairullah/Tictical\ Monster/GalleryAgnets/galleryagents.cpp
+CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o: CMakeFiles/GalleryAgnets.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/khairullah/Tictical Monster/GalleryAgnets/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o -MF CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o.d -o CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o -c "/home/khairullah/Tictical Monster/GalleryAgnets/galleryagents.cpp"
+
+CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/khairullah/Tictical Monster/GalleryAgnets/galleryagents.cpp" > CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.i
+
+CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/khairullah/Tictical Monster/GalleryAgnets/galleryagents.cpp" -o CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.s
+
 CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o: CMakeFiles/GalleryAgnets.dir/flags.make
 CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o: GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp
 CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o: CMakeFiles/GalleryAgnets.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/khairullah/Tictical Monster/GalleryAgnets/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/khairullah/Tictical Monster/GalleryAgnets/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o -MF CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o.d -o CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o -c "/home/khairullah/Tictical Monster/GalleryAgnets/build/Desktop-Debug/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp"
 
 CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.i: cmake_force
@@ -243,6 +285,9 @@ GalleryAgnets_OBJECTS = \
 "CMakeFiles/GalleryAgnets.dir/flying.cpp.o" \
 "CMakeFiles/GalleryAgnets.dir/floating.cpp.o" \
 "CMakeFiles/GalleryAgnets.dir/grounded.cpp.o" \
+"CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o" \
+"CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o" \
+"CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o" \
 "CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o"
 
 # External object files for target GalleryAgnets
@@ -256,6 +301,9 @@ GalleryAgnets: CMakeFiles/GalleryAgnets.dir/waterwalking.cpp.o
 GalleryAgnets: CMakeFiles/GalleryAgnets.dir/flying.cpp.o
 GalleryAgnets: CMakeFiles/GalleryAgnets.dir/floating.cpp.o
 GalleryAgnets: CMakeFiles/GalleryAgnets.dir/grounded.cpp.o
+GalleryAgnets: CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o
+GalleryAgnets: CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o
+GalleryAgnets: CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o
 GalleryAgnets: CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/EWIEGA46WW/qrc_Images.cpp.o
 GalleryAgnets: CMakeFiles/GalleryAgnets.dir/build.make
 GalleryAgnets: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
@@ -264,7 +312,7 @@ GalleryAgnets: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 GalleryAgnets: /usr/lib/x86_64-linux-gnu/libGLX.so
 GalleryAgnets: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 GalleryAgnets: CMakeFiles/GalleryAgnets.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/khairullah/Tictical Monster/GalleryAgnets/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable GalleryAgnets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/khairullah/Tictical Monster/GalleryAgnets/build/Desktop-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable GalleryAgnets"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GalleryAgnets.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

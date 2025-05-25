@@ -210,9 +210,21 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/khairullah/Tictical Monster/GalleryAgnets/agentitem.h",
+			"MU",
+			"EWIEGA46WW/moc_agentitem.cpp",
+			null
+		],
+		[
 			"/home/khairullah/Tictical Monster/GalleryAgnets/agents.h",
 			"MU",
 			"EWIEGA46WW/moc_agents.cpp",
+			null
+		],
+		[
+			"/home/khairullah/Tictical Monster/GalleryAgnets/clickablepixmapitem.h",
+			"MU",
+			"EWIEGA46WW/moc_clickablepixmapitem.cpp",
 			null
 		],
 		[
@@ -225,6 +237,12 @@
 			"/home/khairullah/Tictical Monster/GalleryAgnets/flying.h",
 			"MU",
 			"EWIEGA46WW/moc_flying.cpp",
+			null
+		],
+		[
+			"/home/khairullah/Tictical Monster/GalleryAgnets/galleryagents.h",
+			"MU",
+			"EWIEGA46WW/moc_galleryagents.cpp",
 			null
 		],
 		[
@@ -305,7 +323,17 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/khairullah/Tictical Monster/GalleryAgnets/agentitem.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/khairullah/Tictical Monster/GalleryAgnets/agents.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khairullah/Tictical Monster/GalleryAgnets/clickablepixmapitem.cpp",
 			"MU",
 			null
 		],
@@ -316,6 +344,11 @@
 		],
 		[
 			"/home/khairullah/Tictical Monster/GalleryAgnets/flying.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/khairullah/Tictical Monster/GalleryAgnets/galleryagents.cpp",
 			"MU",
 			null
 		],

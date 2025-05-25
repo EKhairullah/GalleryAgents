@@ -29,6 +29,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         floating.h floating.cpp
         grounded.h grounded.cpp
         Images.qrc
+        agentitem.h agentitem.cpp
+        clickablepixmapitem.h clickablepixmapitem.cpp
+        galleryagents.h galleryagents.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GalleryAgnets APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

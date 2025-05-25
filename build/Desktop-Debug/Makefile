@@ -248,6 +248,30 @@ GalleryAgnets_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/GalleryAgnets_autogen/mocs_compilation.cpp.s
 .PHONY : GalleryAgnets_autogen/mocs_compilation.cpp.s
 
+agentitem.o: agentitem.cpp.o
+.PHONY : agentitem.o
+
+# target to build an object file
+agentitem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/agentitem.cpp.o
+.PHONY : agentitem.cpp.o
+
+agentitem.i: agentitem.cpp.i
+.PHONY : agentitem.i
+
+# target to preprocess a source file
+agentitem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/agentitem.cpp.i
+.PHONY : agentitem.cpp.i
+
+agentitem.s: agentitem.cpp.s
+.PHONY : agentitem.s
+
+# target to generate assembly for a file
+agentitem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/agentitem.cpp.s
+.PHONY : agentitem.cpp.s
+
 agents.o: agents.cpp.o
 .PHONY : agents.o
 
@@ -271,6 +295,30 @@ agents.s: agents.cpp.s
 agents.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/agents.cpp.s
 .PHONY : agents.cpp.s
+
+clickablepixmapitem.o: clickablepixmapitem.cpp.o
+.PHONY : clickablepixmapitem.o
+
+# target to build an object file
+clickablepixmapitem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.o
+.PHONY : clickablepixmapitem.cpp.o
+
+clickablepixmapitem.i: clickablepixmapitem.cpp.i
+.PHONY : clickablepixmapitem.i
+
+# target to preprocess a source file
+clickablepixmapitem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.i
+.PHONY : clickablepixmapitem.cpp.i
+
+clickablepixmapitem.s: clickablepixmapitem.cpp.s
+.PHONY : clickablepixmapitem.s
+
+# target to generate assembly for a file
+clickablepixmapitem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/clickablepixmapitem.cpp.s
+.PHONY : clickablepixmapitem.cpp.s
 
 floating.o: floating.cpp.o
 .PHONY : floating.o
@@ -319,6 +367,30 @@ flying.s: flying.cpp.s
 flying.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/flying.cpp.s
 .PHONY : flying.cpp.s
+
+galleryagents.o: galleryagents.cpp.o
+.PHONY : galleryagents.o
+
+# target to build an object file
+galleryagents.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.o
+.PHONY : galleryagents.cpp.o
+
+galleryagents.i: galleryagents.cpp.i
+.PHONY : galleryagents.i
+
+# target to preprocess a source file
+galleryagents.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.i
+.PHONY : galleryagents.cpp.i
+
+galleryagents.s: galleryagents.cpp.s
+.PHONY : galleryagents.s
+
+# target to generate assembly for a file
+galleryagents.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryAgnets.dir/build.make CMakeFiles/GalleryAgnets.dir/galleryagents.cpp.s
+.PHONY : galleryagents.cpp.s
 
 grounded.o: grounded.cpp.o
 .PHONY : grounded.o
@@ -437,15 +509,24 @@ help:
 	@echo "... GalleryAgnets_autogen/mocs_compilation.o"
 	@echo "... GalleryAgnets_autogen/mocs_compilation.i"
 	@echo "... GalleryAgnets_autogen/mocs_compilation.s"
+	@echo "... agentitem.o"
+	@echo "... agentitem.i"
+	@echo "... agentitem.s"
 	@echo "... agents.o"
 	@echo "... agents.i"
 	@echo "... agents.s"
+	@echo "... clickablepixmapitem.o"
+	@echo "... clickablepixmapitem.i"
+	@echo "... clickablepixmapitem.s"
 	@echo "... floating.o"
 	@echo "... floating.i"
 	@echo "... floating.s"
 	@echo "... flying.o"
 	@echo "... flying.i"
 	@echo "... flying.s"
+	@echo "... galleryagents.o"
+	@echo "... galleryagents.i"
+	@echo "... galleryagents.s"
 	@echo "... grounded.o"
 	@echo "... grounded.i"
 	@echo "... grounded.s"
